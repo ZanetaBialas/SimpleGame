@@ -1,0 +1,10 @@
+1. The playing field is a square-shaped board,
+    divided into 9 equal fields by 4 intersecting lines:
+    2 vertically and 2 horizontally, each of which is divided by two
+    perpendicular to it lines into three equal parts.
+
+2. The players place tic-tac-toe alternately on each field.
+
+3. When one of the players creates a line of three crosses or three circles,
+    crosses it out and becomes the winner. When all fields are full and no
+    a line is formed and the game is tied.
