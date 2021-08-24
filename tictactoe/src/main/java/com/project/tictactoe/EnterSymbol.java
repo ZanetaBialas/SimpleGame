@@ -21,8 +21,8 @@ public interface EnterSymbol {
     double lineWidth = 5;
 
     static void putCross(StackPane sp) {
-        Line line1 = new Line(1, 1, 150, 150);
-        Line line2 = new Line(1, 150, 150, 1);
+        Line line1 = new Line(1, 1, 50, 50);
+        Line line2 = new Line(1, 50, 50, 1);
         line1.setStrokeWidth(lineWidth);
         line2.setStrokeWidth(lineWidth);
         Shape cross = Shape.union(line1, line2);
@@ -32,7 +32,7 @@ public interface EnterSymbol {
 
     static void putCircle(StackPane sp) {
 
-        Ellipse circle = new Ellipse(20, 20, 70, 70);
+        Ellipse circle = new Ellipse(10, 10, 30, 30);
         circle.setFill(Color.TRANSPARENT);
         circle.setStroke(Color.BLACK);
         circle.setStrokeWidth(lineWidth);

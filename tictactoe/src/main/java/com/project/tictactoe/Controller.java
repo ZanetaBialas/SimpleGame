@@ -62,12 +62,12 @@ public class Controller implements EnterSymbol{
 
             GridPane g = new GridPane();
             g.setAlignment(Pos.CENTER);
-            g.setPadding(new Insets(5, 5, 5, 5));
+            g.setPadding(new Insets(20, 20, 20, 20));
             g.add(message, 1, 1);
             g.add(buttonNextRound, 2, 2);
             g.setHgap(5);
             g.setVgap(5);
-            Scene sc = new Scene(g, 800, 70, Color.WHITE);
+            Scene sc = new Scene(g, 600, 100, Color.WHITE);
             Stage stageWin = new Stage();
             stageWin.setScene(sc);
             stageWin.show();

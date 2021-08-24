@@ -16,7 +16,7 @@ public class MainScene {
         mainGrid.setAlignment(Pos.CENTER);
         mainGrid.add(getFencingFloorGrid(),1,2);
         mainGrid.add(getSummaryGrid(),1,1);
-        Scene mainScene = new Scene(mainGrid,700,800, Color.WHITE);
+        Scene mainScene = new Scene(mainGrid,600,600, Color.WHITE);
         return mainScene;
     }
 }

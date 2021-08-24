@@ -19,15 +19,15 @@ public class FencingFloorGrid {
 
     public static HashMap<StackPane, Integer> stackPaneHashMap = new HashMap<StackPane, Integer>();
 
-    final static Image field1 = new Image("file:src/main/resources/field1.png", 120, 120, true, false);
-    final static Image field2 = new Image("file:src/main/resources/field2.png", 120, 120, true, false);
-    final static Image field3 = new Image("file:src/main/resources/field3.png", 120, 120, true, false);
-    final static Image field4 = new Image("file:src/main/resources/field4.png", 120, 120, true, false);
-    final static Image field5 = new Image("file:src/main/resources/field5.png", 120, 120, true, false);
-    final static Image field6 = new Image("file:src/main/resources/field6.png", 120, 120, true, false);
-    final static Image field7 = new Image("file:src/main/resources/field7.png", 120, 120, true, false);
-    final static Image field8 = new Image("file:src/main/resources/field8.png", 120, 120, true, false);
-    final static Image field9 = new Image("file:src/main/resources/field9.png", 120, 120, true, false);
+    final static Image field1 = new Image("file:src/main/resources/field1.png", 100, 100, true, false);
+    final static Image field2 = new Image("file:src/main/resources/field2.png", 100, 100, true, false);
+    final static Image field3 = new Image("file:src/main/resources/field3.png", 100, 100, true, false);
+    final static Image field4 = new Image("file:src/main/resources/field4.png", 100, 100, true, false);
+    final static Image field5 = new Image("file:src/main/resources/field5.png", 100, 100, true, false);
+    final static Image field6 = new Image("file:src/main/resources/field6.png", 100, 100, true, false);
+    final static Image field7 = new Image("file:src/main/resources/field7.png", 100, 100, true, false);
+    final static Image field8 = new Image("file:src/main/resources/field8.png", 100, 100, true, false);
+    final static Image field9 = new Image("file:src/main/resources/field9.png", 100, 100, true, false);
 
     static StackPane stackPane1 = new StackPane(new ImageView(field1));
     static StackPane stackPane2 = new StackPane(new ImageView(field2));
@@ -61,14 +61,14 @@ public class FencingFloorGrid {
     public static GridPane getFencingFloorGrid() {
         Image image = new Image("file:src/main/resources/background.png");
 
-        BackgroundSize backgroundSize = new BackgroundSize(700, 700, false, false, false, false);
+        BackgroundSize backgroundSize = new BackgroundSize(400, 400, false, false, false, false);
         BackgroundImage backgroundImage = new BackgroundImage(image, BackgroundRepeat.NO_REPEAT, BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, backgroundSize);
         Background background = new Background(backgroundImage);
 
         GridPane grid = new GridPane();
         grid.setBackground(background);
         grid.setAlignment(Pos.CENTER);
-        grid.setPadding(new Insets(32, 100, 63, 70));
+        grid.setPadding(new Insets(50, 100, 63, 100));
         grid.setHgap(20);
         grid.setVgap(18);
 
